@@ -9,6 +9,8 @@ int main() {
   const std::string stars(name.size() + 4, '*');
   const std::string spaces(name.size() + 2, ' ');
 
+  std::string str = std::string("one") + std::string("two");
+
   std::cout << stars << std::endl;
   std::cout << "*" << spaces << "*" << std::endl;
   std::cout << "* " << name << " *" << std::endl;
