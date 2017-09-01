@@ -6,13 +6,14 @@ int main() {
   std::string name;
   std::cin >> name;
 
-  std::string stars(name.size() + 4, '*');
-  std::string spaces(name.size() + 2, ' ');
+  const std::string stars(name.size() + 4, '*');
+  const std::string spaces(name.size() + 2, ' ');
 
   std::cout << stars << std::endl;
   std::cout << "*" << spaces << "*" << std::endl;
   std::cout << "* " << name << " *" << std::endl;
   std::cout << "*" << spaces << "*" << std::endl;  
   std::cout << stars << std::endl;
+
   return 0;
 }
